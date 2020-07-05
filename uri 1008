@@ -1,0 +1,7 @@
+num=int(input())
+hour=int(input())
+r=float(input())
+rate=float("{:.2f}".format(r))
+salary = hour*rate
+print("NUMBER = ",num)
+print("SALARY = U$ %0.2f"%salary)
