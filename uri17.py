@@ -1,0 +1,5 @@
+t=int(input())
+v=int(input())
+s=float(v*t)
+l=float('{:.3f}'.format(s/12.000))
+print(l)
