@@ -1,0 +1,50 @@
+#include<stdio.h>
+
+int main(){
+    
+    int a = 1 ,c = 6  , d =6 , e =6,i ,max ;
+    
+    
+    int rownak[10]; //array declation
+    
+    for(i=0; i<10; i++){
+        scanf("%d",&rownak[i]);
+    }
+    
+    max = rownak[0];   //a[0]= 1 
+    
+    for(i=0; i<10; i++)
+    {
+        
+        if (rownak[i] >max)    
+        
+        {
+            max = rownak[i];
+        }
+   
+    }
+    printf("%d", max);
+
+    
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
